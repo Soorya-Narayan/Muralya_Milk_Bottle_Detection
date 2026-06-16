@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Raw image datasets (too large for GitHub ~5GB total)
+Milk_Bottles/
+Milk_Pouches/
+Annotated/
+
+# Prepared dataset (generated — run prepare_dataset.py to recreate)
+dataset/
+
+# YOLOv8 base weights (auto-downloaded by Ultralytics)
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+
+# Training artefacts — keep graphs & results, exclude large weight copies
+runs/detect/milk_bottle/weights/last.pt
+runs/detect/milk_bottle/weights/best.onnx
+runs/detect/milk_bottle/train_batch*.jpg
+
+# Screenshots saved during live detection
+screenshots/
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
