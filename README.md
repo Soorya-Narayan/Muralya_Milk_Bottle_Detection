@@ -204,5 +204,5 @@ This project is for internal use at **Muralya Dairy**. Dataset images are propri
 ---
 
 <div align="center">
-Built with ❤️ using <a href="https://ultralytics.com">Ultralytics YOLOv8</a> · Trained on Apple M5
+ · Trained on Apple M5 ·
 </div>
